@@ -1,0 +1,76 @@
+﻿<sr:RibbonWindow x:Class="Presentacion.wpfUsuario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sr="http://schemas.divelements.co.uk/wpf/sandribbon"
+        Title="USUARIOS" Height="500" Width="800" ShowInTaskbar="True" WindowStartupLocation="CenterScreen" xmlns:my="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" Background="#FFFCFCFC" Closing="Window_Closing" Icon="/Presentacion;component/Images/1344562217_couple.png">
+    <sr:RibbonWindow.StatusBar>
+        <sr:StatusBar>
+            <sr:StatusBar.ExtendedControl>
+                <sr:StripPanel Name="strPanel">
+                    <Button Content="" Name="btnMensaje" BorderBrush="#FF2D8340" FontWeight="Bold" />
+                </sr:StripPanel>
+            </sr:StatusBar.ExtendedControl >
+            <Button Content="" Name="lblFecha"/>
+            <Button Content="" Name="lblHora"/>
+            <Separator />
+            <Label Content="" Name="lblTotal"/>
+        </sr:StatusBar>
+    </sr:RibbonWindow.StatusBar>
+        <Grid Background="#FFFFFCFC">
+        <my:Ribbon HorizontalAlignment="Stretch" Name="ribbon1" VerticalAlignment="Top"  Height="110" Background="#CAC7F4FB">
+           
+            <my:RibbonTab Header="Registro">
+                <my:RibbonGroup>
+                    <my:RibbonButton Label="Nuevo"    LargeImageSource="/Presentacion;component/Images/1344565422_document-new.png" Name="rbNuevoRegistro"  ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Genera un nuevo Registro" ToolTipDescription="Los registros se activan  " Click="rbNuevoRegistro_Click" />
+                </my:RibbonGroup>
+
+                <my:RibbonGroup>
+                    <my:RibbonButton Label="Guardar" LargeImageSource="/Presentacion;component/Images/1344565565_Save.png" Click="RibbonButton_Click" ToolTip="Guardar registro" />
+                </my:RibbonGroup>
+                <my:RibbonGroup>
+                    <my:RibbonButton Name="rbEliminar" Label="Eliminar" LargeImageSource="/Presentacion;component/Images/1344565383_Close_Box_Red.png"   ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Para Eliminar presione (Delete) " ToolTipDescription="Elimina los Registros seleccionados  " IsEnabled="False" />
+                </my:RibbonGroup>
+                <my:RibbonGroup>
+                    <my:RibbonButton Name="rbActualizar" Label="Actualizar" LargeImageSource="/Presentacion;component/Images/1344567350_system-software-update.png"   ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Para Actualizar presione F5 " ToolTipDescription="Actualiza los registros seleccionados " IsEnabled="False" />
+                </my:RibbonGroup>
+                <my:RibbonGroup>
+                    <my:RibbonButton Label="Cancelar"  Name="rbCancelar"  LargeImageSource="/Presentacion;component/Images/1344565469_Cancel__Red.png"  ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Boton cancelar  " ToolTipDescription="Cancela las Acciones  " Click="rbCancelar_Click" />
+                </my:RibbonGroup>
+            </my:RibbonTab>
+        </my:Ribbon>
+        <ToolBarPanel  HorizontalAlignment="Stretch" Margin="0,29,0,0" Name="toolBarPanel1" VerticalAlignment="Top"  />
+        <StatusBar Height="28" HorizontalAlignment="Left" Margin="0,833,0,0" Name="statusBar1" VerticalAlignment="Top" Width="778" />
+        <Label Content="Nick :" Height="27" HorizontalAlignment="Left" Margin="7,118,0,0" Name="lblNick" VerticalAlignment="Top" Width="89" />
+        <Label Content="Contraseña :" Height="28" HorizontalAlignment="Left" Margin="7,176,0,0" Name="lblApellidoPaterno" VerticalAlignment="Top" Width="102" />
+        <Label Content="Empleado:" Height="25" HorizontalAlignment="Left" Margin="10,294,0,0" Name="lblEmpleado" VerticalAlignment="Top" Width="99" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="11,145,0,0" Name="txtNick" VerticalAlignment="Top" Width="393" IsEnabled="False" />
+        
+        <ComboBox Height="24" HorizontalAlignment="Left" Margin="11,317,0,0" Name="cmbEmpleado" VerticalAlignment="Top" Width="178" IsEnabled="False">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                    
+                        <TextBlock Text="{Binding Path=Nombre}" Width="50"/>
+                        <TextBlock Text="{Binding  Path=ApPaterno}" Width="50"/>
+                        <!--<TextBlock Text="{Binding Path=ApMaterno}" Width="50"/>-->
+
+
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+
+        </ComboBox>
+        <DataGrid AutoGenerateColumns="False" Height="151" IsReadOnly="True" ItemsSource="{Binding misUsuarios}" HorizontalAlignment="Left" Margin="0,358,0,0" Name="dtgUsuario" VerticalAlignment="Top" Width="779" IsEnabled="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Clave" Binding="{Binding Clave}"/>
+                <DataGridTextColumn Header="Nick" Binding="{Binding Nick}"/>
+                <DataGridTextColumn Header="Contraseña" Binding="{Binding Contrasenia}"/>
+                <DataGridTextColumn Header="Empleado" Binding="{Binding Idempleado}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Confirmar Contraseña" Height="23" HorizontalAlignment="Left" Margin="7,235,0,0" Name="lblConfirmar" VerticalAlignment="Top" Width="172" />
+        <PasswordBox Height="26" HorizontalAlignment="Left" Margin="12,264,0,0" Name="txtConfirmarContrasenia" VerticalAlignment="Top" Width="392" IsEnabled="False" />
+        <PasswordBox Height="28" HorizontalAlignment="Left" Margin="12,201,0,0" Name="txtcntrasenia" VerticalAlignment="Top" Width="392" IsEnabled="False" />
+    </Grid>
+  
+</sr:RibbonWindow>

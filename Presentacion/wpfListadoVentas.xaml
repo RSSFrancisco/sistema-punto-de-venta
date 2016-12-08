@@ -1,0 +1,73 @@
+﻿<Window x:Class="Presentacion.wpfListadoVentas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:extToolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit/extended"
+        xmlns:local="clr-namespace:Presentacion"
+        mc:Ignorable="d"
+        Title="LISTADO DE VENTAS" Height="500" WindowStartupLocation="CenterScreen" Width="700" xmlns:my="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ReuxablesLegacy;component/candy.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid x:Name="MenuListadoVentas" Margin="0 0 0 0">
+        <my:Ribbon x:Name="rbmenu" CheckedBackground="#FFCE6A6A"  Margin="0,0,0,327" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" IsEnabled="True" Title=" "  FontWeight="Normal" Focusable="True" IsManipulationEnabled="False" Foreground="Black" BorderBrush="#FFE5E5EF" Background="#CAC7F4FB" MouseOverBackground="#ABD3F2D5">
+            <my:Ribbon.ApplicationMenu>
+                <my:RibbonApplicationMenu Background="#FF1C9D6B" SmallImageSource="/Presentacion;component/Images/1344565183_deliverables.png" IsMainMenu="False">
+                    <my:RibbonApplicationMenuItem Header="Ayuda..." x:Name="rbAyuda"  />
+                    <my:RibbonApplicationMenuItem Header="Información del Sistema" x:Name="rbInformacion" />
+
+                </my:RibbonApplicationMenu>
+            </my:Ribbon.ApplicationMenu>
+            <my:RibbonTab Header="Filtros">
+                <my:RibbonGroup Margin="0" >
+                    <my:RibbonButton Label="Venta de hoy" Click="buscarVentaHoy" Name="rbVentaHoy"  FontSize="14"  LargeImageSource="/Presentacion;component/Images/imgVentaDia.png"></my:RibbonButton>
+                    <my:RibbonButton Label="Venta semana" Name="rbVentaSemanal"  FontSize="14"  LargeImageSource="/Presentacion;component/Images/ventaSemana.png"></my:RibbonButton>
+                    <my:RibbonButton Label="Venta Mes" Name="rbVentaMes"  FontSize="14"  LargeImageSource="/Presentacion;component/Images/ventasPorMes.png"></my:RibbonButton>
+                    <my:RibbonButton Label="Ascendente" Name="rbFiltrAscendente"  FontSize="14"  LargeImageSource="/Presentacion;component/Images/filtro-icono-5680-64.png"></my:RibbonButton>
+                    <my:RibbonButton Label="Descendente" FontSize="14" Name="rbDescendente"  LargeImageSource="/Presentacion;component/Images/filtro-icono-5680-64.png" ></my:RibbonButton>
+                    <my:RibbonButton Label="Antiguos" Name="rbAntiguos"  LargeImageSource="/Presentacion;component/Images/InvoiceSearch.png" FontSize="14" ></my:RibbonButton>
+                    <my:RibbonButton Label="Recientes" Name="rbRecientes"  LargeImageSource="/Presentacion;component/Images/InvoiceSearch1.png" FontSize="14" ></my:RibbonButton>
+                    <!--<my:RibbonButton Label="Papelera de reciclaje" Name="rbEliminado"  LargeImageSource="/Presentacion;component/Images/23-Full%20Trash1.png" ></my:RibbonButton>-->
+                    <my:RibbonButton Label="Mostrar Todos" Name="rbBuscarPorCliente"  LargeImageSource="/Presentacion;component/Images/addressbook-search128.png" FontSize="14" ></my:RibbonButton>
+
+
+                </my:RibbonGroup>
+
+            </my:RibbonTab>
+
+        </my:Ribbon>
+
+        <DataGrid AutoGenerateColumns="False"  ItemsSource="{Binding misVentas}"  HorizontalAlignment="Stretch" Margin="0,143,0,40" x:Name="dtgListadoVentas" VerticalAlignment="Stretch"  IsReadOnly="True" IsEnabled="true" MouseDoubleClick="dtgListadoVentas_MouseDoubleClick" FontFamily="Segoe UI Symbol" FontSize="14">
+            <DataGrid.Columns>
+
+                <DataGridTextColumn Width="100"  Header="Número Venta" Binding="{Binding IdVenta}"/>
+                <DataGridTextColumn Width="125" Header="Cliente" Binding="{Binding Cliente}"/>
+                <DataGridTextColumn Width="120" Header="Empleado" Binding="{Binding Atendio}"/>
+                <DataGridTextColumn Width="120" Header="Fecha" Binding="{Binding Fecha}"/>
+                <DataGridTextColumn Width="75" Header="Importe" Binding="{Binding Importe}"/>
+                <DataGridTextColumn Width="75" Header="Cambio" Binding="{Binding Cambio}"/>
+                <DataGridTextColumn Width="75" Header="Total" Binding="{Binding Total}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <StatusBar Height="40" HorizontalAlignment="Stretch" x:Name="stbBarraEstado" VerticalAlignment="Bottom" Background="#FFF4FFFE" BorderBrush="#FFA8A8A8"  >
+            <Button x:Name="btnPrimerPagina" Height="30" Content="&lt;&lt;" Width="25" RenderTransformOrigin="1.493,14.222"  FontWeight="Bold" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Click="btnPrimerPagina_Click" FontFamily="Segoe UI Symbol" FontSize="17" />
+            <Button x:Name="btnPaginaAnterior" Height="30" Content="&lt;" Width="25" RenderTransformOrigin="1.493,14.222"  FontWeight="Bold" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Click="btnPaginaAnterior_Click" FontSize="17" />
+            <ComboBox x:Name="cmbNumeroPaginas" Height="30" Margin="0,0,0,0"  Width="50" FontWeight="Bold" HorizontalAlignment="Right" HorizontalContentAlignment="Center" SelectionChanged="cmbNumeroPaginas_SelectionChanged" />
+            <Button x:Name="btnPaginaSiguiente" Height="30" Content="&gt;" Width="25" RenderTransformOrigin="1.493,14.222"  FontWeight="Bold" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Click="btnPaginaSiguiente_Click" FontSize="17" FontFamily="Segoe UI Symbol" />
+            <Button x:Name="btnUltimaPagina" Height="30" Content="&gt;&gt;" Width="25" RenderTransformOrigin="1.493,14.222"  FontWeight="Bold" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Click="btnUltimaPagina_Click" FontFamily="Segoe UI Symbol" FontSize="17" />
+            <extToolkit:WatermarkTextBox Height="30" Name="txtBuscarVenta"  Watermark="BUSCAR VENTA POR FECHA, CLIENTE, EMPLEADO, NUMERO DE VENTA ETC"  Width="421" VerticalContentAlignment="Stretch" FontSize="14"/>
+            <Button x:Name="btnBuscarVenta" Height="30" Content="BUSCAR"    Click="btnBuscarVenta_Click" FontSize="14"/>
+            <Button Content="" Height="30" x:Name="btnMensaje" BorderBrush="#FF2D8340"  FontWeight="Bold" Background="#FFFDFDFD" />
+            <Label Content="" x:Name="lblTotal"/>
+
+
+
+        </StatusBar>
+
+    </Grid>
+</Window>

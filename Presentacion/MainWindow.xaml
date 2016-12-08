@@ -1,0 +1,70 @@
+﻿<Window x:Class="Presentacion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="900" Width="1000" ShowInTaskbar="False" Icon="/Presentacion;component/Images/document_add_256.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ReuxablesLegacy;component/inc.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Margin="0 0 0 0">
+        <Menu Height="27" HorizontalAlignment="Left" Margin="-3,-3,0,0" Name="menu1" VerticalAlignment="Top" Width="981">
+            <MenuItem Header="Opciones">
+                <MenuItem Header="Guardar" Click="MenuItem_Click"/>
+                <MenuItem Header="Eliminar" Click="MenuItem_Click_1"/>
+            </MenuItem>
+        </Menu>
+        <Label Content="Nombre" Height="26" HorizontalAlignment="Left" Margin="15,41,0,0" Name="label1" VerticalAlignment="Top" Width="55" />
+        <TextBox Height="22" HorizontalAlignment="Left" Margin="125,43,0,0" Name="txtnombre" VerticalAlignment="Top" Width="369" />
+        <Label Content="Apellido Paterno" Height="24" HorizontalAlignment="Left" Margin="15,77,0,0" Name="label2" VerticalAlignment="Top" Width="103" />
+        <Label Content="Apellido Materno" Height="27" HorizontalAlignment="Left" Margin="15,108,0,0" Name="label3" VerticalAlignment="Top" Width="108" />
+        <Label Content="No.Afiliacion" Height="29" HorizontalAlignment="Left" Margin="16,145,0,0" Name="label4" VerticalAlignment="Top" Width="89" />
+        <Label Content="Fecha Nacimiento" Height="29" HorizontalAlignment="Left" Margin="16,180,0,0" Name="label5" VerticalAlignment="Top" Width="107" />
+        <Label Content="Dirección" Height="25" HorizontalAlignment="Left" Margin="17,225,0,0" Name="label6" VerticalAlignment="Top" Width="69" />
+        <Label Content="Colonia" Height="23" HorizontalAlignment="Left" Margin="20,260,0,0" Name="label7" VerticalAlignment="Top" Width="73" />
+        <Label Content="Ciudad" Height="23" HorizontalAlignment="Left" Margin="19,295,0,0" Name="label8" VerticalAlignment="Top" Width="77" />
+        <Label Content="Estado" Height="25" HorizontalAlignment="Left" Margin="17,332,0,0" Name="label9" VerticalAlignment="Top" Width="79" />
+        <Label Content="CP" Height="25" HorizontalAlignment="Left" Margin="17,368,0,0" Name="label10" VerticalAlignment="Top" Width="89" />
+        <Label Content="Telefono" Height="31" HorizontalAlignment="Left" Margin="17,399,0,0" Name="label11" VerticalAlignment="Top" Width="90" />
+        <Label Content="Correo" Height="27" HorizontalAlignment="Left" Margin="20,448,0,0" Name="label12" VerticalAlignment="Top" Width="86" />
+        <Label Content="Nivel Escolar" Height="25" HorizontalAlignment="Left" Margin="20,481,0,0" Name="label13" VerticalAlignment="Top" Width="93" />
+        <Label Content="Especialidad" Height="28" HorizontalAlignment="Left" Margin="19,522,0,0" Name="label14" VerticalAlignment="Top" Width="92" />
+        <TextBox Height="24" HorizontalAlignment="Left" Margin="124,76,0,0" Name="txtapellidoPaterno" VerticalAlignment="Top" Width="370" />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="124,108,0,0" Name="txtapellidomaterno" VerticalAlignment="Top" Width="370" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="125,144,0,0" Name="txtnoAfiliacion" VerticalAlignment="Top" Width="369" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="124,225,0,0" Name="txtdirección" VerticalAlignment="Top" Width="370" />
+        <TextBox Height="21" HorizontalAlignment="Left" Margin="124,260,0,0" Name="txtcolonia" VerticalAlignment="Top" Width="370" />
+        <TextBox Height="21" HorizontalAlignment="Left" Margin="124,295,0,0" Name="txtCiudad" VerticalAlignment="Top" Width="370" />
+        <TextBox Height="24" HorizontalAlignment="Left" Margin="124,333,0,0" Name="txtEstado" VerticalAlignment="Top" Width="370" />
+        <TextBox Height="24" HorizontalAlignment="Left" Margin="123,365,0,0" Name="txtCp" VerticalAlignment="Top" Width="371" />
+        <TextBox Height="24" HorizontalAlignment="Left" Margin="122,399,0,0" Name="txtTelefono" VerticalAlignment="Top" Width="372" />
+        <TextBox Height="25" HorizontalAlignment="Left" Margin="122,446,0,0" Name="txtCorreo" VerticalAlignment="Top" Width="372" />
+        <TextBox Height="27" HorizontalAlignment="Left" Margin="122,484,0,0" Name="txtNivelEscolar" VerticalAlignment="Top" Width="372" />
+        <TextBox Height="30" HorizontalAlignment="Left" Margin="123,518,0,0" Name="txtEspecialidad" VerticalAlignment="Top" Width="371" />
+        <DataGrid AutoGenerateColumns="False" Height="139" ItemsSource="{Binding misEmpleados}" HorizontalAlignment="Left" Margin="22,564,0,0" Name="dtgEmpleado" VerticalAlignment="Top" Width="825" MouseDoubleClick="dtgEmpleado_MouseDoubleClick">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Clave" Binding="{Binding  Clave}"/>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding  Nombre}"/>
+                <DataGridTextColumn Header="Apellido Paterno" Binding="{Binding  ApPaterno}"/>
+                <DataGridTextColumn Header="Apellido Materno" Binding="{Binding  ApMaterno}"/>
+                <DataGridTextColumn Header="NSS" Binding="{Binding  NSS}"/>
+                <DataGridTextColumn Header="Fecha Nacimiento" Binding="{Binding  FechaNacimiento}"/>
+                <DataGridTextColumn Header="Dirección" Binding="{Binding  Direccion}"/>
+                <DataGridTextColumn Header="Colonia" Binding="{Binding  Colonia}"/>
+                <DataGridTextColumn Header="Ciudad" Binding="{Binding  Ciudad}"/>
+                <DataGridTextColumn Header="Estado" Binding="{Binding  Estado}"/>
+                <DataGridTextColumn Header="Codigo Postal" Binding="{Binding  CP}"/>
+                <DataGridTextColumn Header="Telefono" Binding="{Binding  Telefono}"/>
+                <DataGridTextColumn Header="Correo" Binding="{Binding  Correo}"/>
+                <DataGridTextColumn Header="Nivel Escolar" Binding="{Binding  NivelEscolar}"/>
+                <DataGridTextColumn Header="Especialidad" Binding="{Binding  Especialidad}"/>
+                
+            </DataGrid.Columns>
+
+
+        </DataGrid>
+        <DatePicker Height="27" HorizontalAlignment="Left" Margin="125,181,0,0" Name="dtfecha" VerticalAlignment="Top" Width="369" />
+    </Grid>
+</Window>

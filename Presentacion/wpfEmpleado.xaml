@@ -1,0 +1,166 @@
+﻿<sr:RibbonWindow x:Class="Presentacion.wpfEmpleado"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sr="http://schemas.divelements.co.uk/wpf/sandribbon"
+        xmlns:extToolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit/extended"
+        Title="EMPLEADO" Height="600" Width="800" ResizeMode="CanMinimize" WindowStyle="ThreeDBorderWindow" WindowStartupLocation="CenterScreen"  xmlns:my="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" ShowInTaskbar="True" Closing="Window_Closing" Background="{StaticResource {x:Static SystemColors.ControlBrushKey}}" KeyUp="Window_KeyUp" AllowsTransparency="False" Icon="/Presentacion;component/Images/1344564985_free_for_job.png" Keyboard.KeyUp="Window_KeyUp_1" Appearance="Office2010Blue" Keyboard.KeyDown="RibbonWindow_KeyDown" >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ReuxablesLegacy;component/candy.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <sr:RibbonWindow.StatusBar>
+        <sr:StatusBar>
+            <sr:StatusBar.ExtendedControl>
+                <sr:StripPanel Name="strPanel">
+                    
+                </sr:StripPanel>
+            </sr:StatusBar.ExtendedControl >
+            <Button Content="" Name="btnMensaje"  FontWeight="Bold" Foreground="Black" BorderBrush="#FFF5F2F2">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+                        <GradientStop Color="#FF9DC7D6" Offset="0" />
+                        <GradientStop Color="White" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Label Content="" Name="lblTotal"/>
+            
+           
+            
+            <Separator />
+            
+        </sr:StatusBar>
+    </sr:RibbonWindow.StatusBar>
+   
+    <Grid Margin="0 0 0 0" Background="#FFF8F8F8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="325*" />
+            <ColumnDefinition Width="553*" />
+        </Grid.ColumnDefinitions>
+        <my:Ribbon HorizontalAlignment="Stretch" Name="ribbonmenu" CheckedBackground="#FFCE6A6A" VerticalAlignment="Top"  Height="118" BorderBrush="#FFC4DECF" Grid.ColumnSpan="2" Background="#CAC7F4FB" FontSize="14">
+            <my:Ribbon.ApplicationMenu>
+                <my:RibbonApplicationMenu Background="#FF1C9D6B" SmallImageSource="/Presentacion;component/Images/themes256.png" IsMainMenu="False">
+                    <my:RibbonApplicationMenuItem Header="Ayuda..." x:Name="MenuItem1"  />
+                    <my:RibbonApplicationMenuItem Header="Información del Sistema" x:Name="rbInformacion" />
+
+                </my:RibbonApplicationMenu>
+            </my:Ribbon.ApplicationMenu>
+           
+            
+                      
+
+                        
+            <my:RibbonTab Header="REGISTRO" Name="menuRegistro">
+                
+                <my:RibbonGroup>
+                    <my:RibbonButton Label="Nuevo" FontSize="14"   LargeImageSource="/Presentacion;component/Images/1344565422_document-new.png" Name="rbNuevoRegistro" Click="rbNuevoRegistro_Click" ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Genera un nuevo Registro" ToolTipDescription="Los registros se activan  ">
+                        
+                    </my:RibbonButton>
+                </my:RibbonGroup>
+                <my:RibbonGroup>
+                    <my:RibbonButton Label="Guardar" FontSize="14" LargeImageSource="/Presentacion;component/Images/save.png" Click="RibbonButton_Click" Name="rbGuardar" IsEnabled="False" ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Boton Guardar" ToolTipDescription="Guarda los registros que ingrese en las cajas de texto " />
+                </my:RibbonGroup>
+                <my:RibbonGroup>
+                    <my:RibbonButton Label="Eliminar" FontSize="14" LargeImageSource="/Presentacion;component/Images/1344565383_Close_Box_Red.png" Click="RibbonButton_Click_1"  IsEnabled="False" Name="rbeliminar" ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Para Eliminar presione (Delete) " ToolTipDescription="Elimina los Registros seleccionados  "/>
+                </my:RibbonGroup>
+                <my:RibbonGroup>
+                    <my:RibbonButton Label="Actualizar" FontSize="14" LargeImageSource="/Presentacion;component/Images/1344567350_system-software-update.png" Click="RibbonButton_Click_3" IsEnabled="False" Name="rbActualizar" ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Para Actualizar presione F5 " ToolTipDescription="Actualiza los reportes seleccionados " />
+                </my:RibbonGroup>
+                <my:RibbonGroup>
+                    <my:RibbonButton Label="Cancelar" FontSize="14"  Name="rbCancelar"  LargeImageSource="/Presentacion;component/Images/1344565469_Cancel__Red.png"  ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Boton cancelar  " ToolTipDescription="Cancela los Acciones  " Click="rbCancelar_Click" IsEnabled="False" />
+                </my:RibbonGroup>
+                <my:RibbonGroup Width="150">
+                    <my:RibbonButton Label="Buscar" FontSize="14"  Name="rbBuscar"  LargeImageSource="/Presentacion;component/Images/search.png"  ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Boton cancelar  " ToolTipDescription="Cancela los Acciones  " Click="rbCancelar_Click" IsEnabled="False" />
+
+                    <my:RibbonTextBox    Name="txtBuscar" VerticalAlignment="Center"  Grid.Row="1" TextChanged="txtBuscar_TextChanged"  />
+                    
+                </my:RibbonGroup>
+                <!--<my:RibbonGroup>
+                    <my:RibbonButton Label="Limpiar"  Name="rbLimpiar"  LargeImageSource="/Presentacion;component/Images/1344567506_edit-clear.png"  ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Boton limpiar " ToolTipDescription="Limpia los registros " Click="rbLimpiar_Click" />
+                </my:RibbonGroup>-->
+              
+                
+            </my:RibbonTab>
+            <my:RibbonTab Header="FILTROS" Name="menuFiltros">
+                <my:RibbonGroup>
+                    <my:RibbonButton Label="Ascendente" FontSize="13" Name="rbAscendente" Click="rbAscendente_Click" LargeImageSource="/Presentacion;component/Images/1344553792_button_2.ico"></my:RibbonButton>
+                    <my:RibbonButton Label="Descendente" FontSize="13" Name="rbDescendente" Click="rbDescendente_Click" LargeImageSource="/Presentacion;component/Images/1343951245_Preferences.png"></my:RibbonButton>
+                   
+                    
+                 
+                        <my:RibbonGroup Name="grop" Header="Rango" FontSize="13">
+                        <my:RibbonButton  Click="rbEntre_Click" Name="rbEntre" LargeImageSource="/Presentacion;component/Images/printpreview.png"></my:RibbonButton>
+                        <my:RibbonTextBox  Name="TxtMin"  SmallImageSource="/Presentacion;component/images/calc.png" />
+                        <my:RibbonTextBox Name="TxtMax" SmallImageSource="/Presentacion;component/images/calc.png" />
+                        </my:RibbonGroup>
+                   
+                    <my:RibbonButton Label="Apellido" Name="rbApellido" Click="rbApellido_Click" LargeImageSource="/Presentacion;component/1343952252_Network.ico"></my:RibbonButton>
+                    <my:RibbonButton Label="Eliminados" Name="rbEliminado"  LargeImageSource="/Presentacion;component/1343952252_Network.ico"></my:RibbonButton>
+                </my:RibbonGroup>
+
+            </my:RibbonTab>
+            <my:RibbonTab Header="REPORTES" FontSize="14" FontFamily="Arial" Name="menuReportes">
+                <my:RibbonGroup>
+                    <my:RibbonButton Label="Generar" Name="rbReportes" LargeImageSource="/Presentacion;component/Images/1344565499_custom-reports.png" Click="RibbonButton_Click_2" IsEnabled="True" ToolTipFooterTitle="Presione F1 para obtener ayuda" ToolTipTitle="Generar reportes " ToolTipDescription="Genera un reporte de los registros que se muestran en la ventana Empleado "/>
+                    <Label Name="lblNombrer" Content=""/>
+                    <TextBox Name="txtNombreReporte" Width="150" />
+                    <Label Name="lblNombrereport" Content="     Nombre del Reporte"/>
+                </my:RibbonGroup>
+            </my:RibbonTab>
+        </my:Ribbon>
+        <DataGrid AutoGenerateColumns="False"  ItemsSource="{Binding misEmpleados}"  HorizontalAlignment="Stretch" Margin="0,401,0,0" Name="dtgEmpleado" VerticalAlignment="Top" MouseDoubleClick="dtgEmpleado_MouseDoubleClick" IsReadOnly="True" IsEnabled="True" ToolTip="Tabla de los empleados registrados" Grid.ColumnSpan="2" FontSize="14">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Clave" Binding="{Binding  Clave}" Width="60" FontSize="13"/>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding  Nombre}" Width="120"/>
+                <DataGridTextColumn Header="Apellido Paterno" Binding="{Binding  ApPaterno}" Width="160"/>
+                <DataGridTextColumn Header="Apellido Materno" Binding="{Binding  ApMaterno}" Width="160"/>
+                <DataGridTextColumn Header="Teléfono" Binding="{Binding  Telefono}" Width="120"/>
+                <DataGridTextColumn Header="Correo" Binding="{Binding  Correo}" Width="*"/>
+              
+
+            </DataGrid.Columns>
+
+
+        </DataGrid>
+        <GroupBox Grid.ColumnSpan="2" Header="" Height="284" HorizontalAlignment="Left"  Name="groupBox1" VerticalAlignment="Top" Width="800" FlowDirection="LeftToRight" HorizontalContentAlignment="Stretch" Margin="0,118,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="55*" />
+                    <ColumnDefinition Width="811*" />
+                </Grid.ColumnDefinitions>
+                <Label Content="Nombre:"  FontSize="12.5" Height="26" HorizontalAlignment="Left" Margin="11,14,0,0" Name="label1" VerticalAlignment="Top" Width="55" Grid.ColumnSpan="2" />
+                <Label Content="Apellido Paterno:" FontSize="12.5" Height="24" HorizontalAlignment="Left" Margin="10,52,0,0" Name="label2" VerticalAlignment="Top" Width="103" Grid.ColumnSpan="2" />
+                <Label Content="Apellido Materno:" FontSize="12.5" Height="27" HorizontalAlignment="Left" Margin="10,83,0,0" Name="label3" VerticalAlignment="Top" Width="108" Grid.ColumnSpan="2" />
+                <Label Content="No. Afiliación:" FontSize="12.5" Height="29" HorizontalAlignment="Left" Margin="11,120,0,0" Name="label4" VerticalAlignment="Top" Width="89" Grid.ColumnSpan="2" />
+                <Label Content="Fecha Nacimiento:" FontSize="12.5" Height="29" HorizontalAlignment="Left" Margin="11,158,0,0" Name="label5" VerticalAlignment="Top" Width="107" Grid.ColumnSpan="2" />
+                <Label Content="Dirección:" FontSize="12.5" Height="25" HorizontalAlignment="Left" Margin="12,189,0,0" Name="label6" VerticalAlignment="Top" Width="69" Grid.ColumnSpan="2" />
+                <Label Content="Colonia:" FontSize="12.5" Height="23" HorizontalAlignment="Left" Margin="13,224,0,0" Name="label7" VerticalAlignment="Top" Width="73" Grid.ColumnSpan="2" />
+                <Label Content="Ciudad:" FontSize="12.5" Height="23" Margin="345,12,330,0" Name="label8" VerticalAlignment="Top" Grid.Column="1" />
+                <Label Content="Estado:" FontSize="12.5" Height="25" Margin="343,49,330,0" Name="label9" VerticalAlignment="Top" Grid.Column="1" />
+                <Label Content="C.P.:" FontSize="12.5" Height="25" HorizontalAlignment="Left" Margin="343,83,0,0" Name="label10" VerticalAlignment="Top" Width="89" Grid.Column="1" />
+                <Label Content="Teléfono:" FontSize="12.5" Height="31" HorizontalAlignment="Left" Margin="343,115,0,0" Name="label11" VerticalAlignment="Top" Width="90" Grid.Column="1" />
+                <Label Content="Correo Electrónico:" FontSize="12.5" Height="27" HorizontalAlignment="Left" Margin="344,157,0,0" Name="label12" VerticalAlignment="Top" Width="105" Grid.Column="1" />
+                <Label Content="Nivel Escolar:" FontSize="12.5" Height="25" HorizontalAlignment="Left" Margin="345,187,0,0" Name="label13" VerticalAlignment="Top" Width="93" Grid.Column="1" />
+                <Label Content="Especialidad:" FontSize="12.5" Height="28" HorizontalAlignment="Left" Margin="345,228,0,0" Name="label14" VerticalAlignment="Top" Width="92" Grid.Column="1" />
+                <TextBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="70,0,0,152" Name="txtapellidomaterno" TabIndex="3" VerticalAlignment="Bottom" Width="256" KeyDown="txtapellidomaterno_KeyDown" Grid.Column="1" FontSize="13" />
+                <TextBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="71,119,0,0" MaxLength="12" Name="txtnoAfiliacion" TabIndex="4" VerticalAlignment="Top" Width="255" KeyDown="txtnoAfiliacion_KeyDown" Grid.Column="1" FontSize="13" />
+                <TextBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="70,189,0,0" MaxLength="150" Name="txtdirección" TabIndex="6" VerticalAlignment="Top" Width="256" Grid.Column="1" FontSize="13" />
+                <TextBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="70,224,0,0" MaxLength="150" Name="txtcolonia" TabIndex="7" VerticalAlignment="Top" Width="256" Grid.Column="1" FontSize="13" />
+                <TextBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="459,10,0,0" MaxLength="150" Name="txtCiudad" TabIndex="8" VerticalAlignment="Top" Width="255" KeyDown="txtCiudad_KeyDown" Grid.Column="1" FontSize="13" />
+                <TextBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="459,80,0,0" MaxLength="7" Name="txtCp" TabIndex="10" VerticalAlignment="Top" Width="99" KeyDown="txtCp_KeyDown" Grid.Column="1" FontSize="13" />
+                <TextBox Height="26" IsEnabled="False" Margin="459,111,180,0" MaxLength="15" Name="txtTelefono" TabIndex="11" VerticalAlignment="Top" KeyDown="txtTelefono_KeyDown" Grid.Column="1" FontSize="13" />
+                <TextBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="459,151,0,0" MaxLength="150" Name="txtCorreo" TabIndex="12" VerticalAlignment="Top" Width="255" Grid.Column="1" FontSize="13" />
+                <TextBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="461,220,0,0" MaxLength="150" Name="txtEspecialidad" TabIndex="14" VerticalAlignment="Top" Width="253" KeyDown="txtEspecialidad_KeyDown" Grid.Column="1" FontSize="13" />
+                <DatePicker Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="71,156,0,0" Name="dtfecha" TabIndex="5" VerticalAlignment="Top" Width="140" Grid.Column="1" FontSize="13" />
+                <ComboBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="459,49,0,0" Name="cmbEstado" TabIndex="9" VerticalAlignment="Top" Width="255" Grid.Column="1" FontSize="13" />
+                <ComboBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="460,184,0,0" Name="cmbNivelescolar" TabIndex="13" VerticalAlignment="Top" Width="254" Grid.Column="1" FontSize="13" />
+                <TextBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="71,17,0,0" MaxLength="50" Name="txtnombre" TabIndex="1" VerticalAlignment="Top" Width="255"  Grid.Column="1" KeyDown="txtnombre_KeyDown"  AcceptsTab="False" IsReadOnlyCaretVisible="False" FontSize="13"  />
+                <TextBox Height="26" HorizontalAlignment="Left" IsEnabled="False" Margin="71,51,0,0" MaxLength="100" Name="txtapellidoPaterno" TabIndex="2" VerticalAlignment="Top" Width="255" KeyDown="txtapellidoPaterno_KeyDown" Grid.Column="1" FontSize="13" />
+            </Grid>
+        </GroupBox>
+    </Grid>
+    
+</sr:RibbonWindow>

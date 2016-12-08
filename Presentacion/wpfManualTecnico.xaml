@@ -1,0 +1,44 @@
+﻿<Window x:Class="Presentacion.wpfManualTecnico"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ventana Ayuda" Height="600" Width="600" xmlns:sr="http://schemas.divelements.co.uk/wpf/sandribbon" Icon="/Presentacion;component/Images/Folder-Info256.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ReuxablesLegacy;component/candy.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <TabControl Height="531" HorizontalAlignment="Left" Name="tabControl1" VerticalAlignment="Top" Width="578" TabStripPlacement="Top">
+            <TabItem Header="inicio" Name="tabInicio" Width="80"  >
+                <Grid FlowDirection="LeftToRight">
+                    <Image Height="111" HorizontalAlignment="Left" Margin="27,6,0,0" Name="image2" Stretch="Fill" VerticalAlignment="Top" Width="510" Source="/Presentacion;component/Images/LOGO_RG.png" />
+                    <Expander Header="Uso de los Ribbons del Sistema" Height="216" HorizontalAlignment="Left" Margin="24,115,0,0" Name="expander2" VerticalAlignment="Top" Width="513" IsExpanded="True">
+                        <Grid Height="168">
+                            <Image Height="133" HorizontalAlignment="Left" Margin="-1,1,0,0" Name="image3" Stretch="UniformToFill" VerticalAlignment="Top" Width="509" Source="/Presentacion;component/Images/usoDeRibbons.PNG" />
+                        </Grid>
+                    </Expander>
+                    <Expander Header="Tablas de los registros" Height="216" HorizontalAlignment="Left" Margin="22,334,0,0" Name="expander1" VerticalAlignment="Top" Width="513">
+                        <Grid>
+                            <Image Height="113" HorizontalAlignment="Left" Margin="6,15,0,0" Name="image1" Source="/Presentacion;component/Images/tablasDe.PNG" Stretch="UniformToFill" VerticalAlignment="Top" Width="481" />
+                        </Grid>
+                    </Expander>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Formularios" Name="tabsesion" Width="80" >
+                <Grid>
+                    <Expander Header="Contenedores GroupBox" Height="411" HorizontalAlignment="Left" Margin="14,20,0,0" Name="expander3" VerticalAlignment="Top" Width="531" IsExpanded="True">
+                        <Grid>
+                            <Image Height="353" HorizontalAlignment="Left" Margin="10,14,0,0" Name="image4" Stretch="UniformToFill" VerticalAlignment="Top" Width="509" Source="/Presentacion;component/Images/formas.PNG" />
+                        </Grid>
+                    </Expander>
+                    <TextBlock Height="56" HorizontalAlignment="Left" Margin="18,436,0,0" Name="txtInformacion" Text=" " VerticalAlignment="Top" Width="528" />
+                    <Label Content="Para más Información Consulte la documentacion que biene adjunta al Sistema de Control de Servicios." Height="56" HorizontalAlignment="Left" Margin="6,436,0,0" Name="lbInfo" VerticalAlignment="Top" Width="550"  />
+                </Grid>
+            </TabItem>
+           
+        </TabControl>
+        <Button Content="Salir" Height="23" HorizontalAlignment="Left" Margin="498,534,0,0" Name="btnSalir" VerticalAlignment="Top" Width="75" Click="btnSalir_Click" />
+    </Grid>
+</Window>

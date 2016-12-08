@@ -1,0 +1,14 @@
+﻿<Window x:Class="Presentacion.Splash"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Splash" Height="300" Width="300" ShowInTaskbar="False" ResizeMode="NoResize" >
+    <Window.BorderBrush>
+        <ImageBrush ImageSource="/Presentacion;component/1343952252_Network.ico" Stretch="Uniform" TileMode="None" />
+    </Window.BorderBrush>
+    <Grid Background="#00000000">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="251*" />
+            <ColumnDefinition Width="27*" />
+        </Grid.ColumnDefinitions>
+    </Grid>
+</Window>

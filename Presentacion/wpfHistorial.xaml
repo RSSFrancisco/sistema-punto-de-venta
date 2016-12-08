@@ -1,0 +1,54 @@
+﻿<Window x:Class="Presentacion.wpfHistorial"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HISTORIAL DEL SISTEMA" Height="500" Width="600" WindowStartupLocation="CenterScreen" ShowInTaskbar="True" xmlns:sr="http://schemas.divelements.co.uk/wpf/sandribbon" xmlns:my="http://schemas.microsoft.com/winfx/2006/xaml/presentation/ribbon" Icon="/Presentacion;component/Images/1343951245_Preferences.png">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ReuxablesLegacy;component/candy.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid x:Name="MenuRG" Margin="0 0 0 0">
+        <my:Ribbon x:Name="rbmenu" CheckedBackground="#FFCE6A6A"  Margin="0,0,0,0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" IsEnabled="True" Title=" "  FontWeight="Normal" Focusable="True" IsManipulationEnabled="False" Foreground="Black" BorderBrush="#FFE5E5EF" Background="#CAC7F4FB" MouseOverBackground="#ABD3F2D5">
+            <my:Ribbon.ApplicationMenu>
+                <my:RibbonApplicationMenu Background="#FF1C9D6B" SmallImageSource="/Presentacion;component/Images/1344565183_deliverables.png" IsMainMenu="False">
+                    <my:RibbonApplicationMenuItem Header="Ayuda..." x:Name="MenuItem1"  />
+                    <my:RibbonApplicationMenuItem Header="Eliminar" x:Name="rbEliminar" />
+
+                </my:RibbonApplicationMenu>
+            </my:Ribbon.ApplicationMenu>
+            <my:RibbonTab Header="Opciones">
+
+                <my:RibbonGroup>
+                    <my:RibbonButton IsEnabled="True" Label="Ultimas Modificaciones" LargeImageSource="/Presentacion;component/1343952252_Network.ico" Name="rbUltimasModificaciones" ToolTipDescription="Muestra las ultimas modificaciones en el sistema " ToolTipFooterTitle="Presione F1 para obtener ayuda" Click="rbUltimasModificaciones_Click" FontSize="14" FontFamily="Segoe UI Symbol" />
+                </my:RibbonGroup>
+
+
+            </my:RibbonTab>
+
+
+        </my:Ribbon>
+        <DataGrid AutoGenerateColumns="False"  HorizontalAlignment="Stretch" Margin="0,141,0,40" Name="dtgHistorial" VerticalAlignment="Stretch"  ItemsSource="{Binding miHistorial}" IsReadOnly="True" FontSize="14" FontFamily="Segoe UI Symbol">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Clave" Binding="{Binding  Clave}" Width="60"/>
+                <DataGridTextColumn Header="Fecha y Hora" Binding="{Binding  FechaHora}" Width="120"/>
+                <DataGridTextColumn Header="Descripción" Binding="{Binding  Comentario}" Width="*"/>
+                <DataGridTextColumn Header="Ventana" Binding="{Binding  Tabla}" Width="160"/>
+
+
+
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <StatusBar Height="40" HorizontalAlignment="Stretch" Margin="0,0,0,0" Name="stbHistorial" VerticalAlignment="Bottom" Background="#FFF4FFFE" BorderBrush="#FF8F8F8F"  >
+            <Button Height="30" x:Name="btnPrimerPagina" Content="&lt;&lt;" Width="25" RenderTransformOrigin="1.493,14.222"  FontWeight="Bold" Click="btnPrimerPagina_Click" HorizontalContentAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Right" FontFamily="Segoe UI Symbol" FontSize="16"/>
+            <Button Height="30" x:Name="btnPaginaAnterior" Content="&lt;" Width="25" RenderTransformOrigin="1.493,14.222"  FontWeight="Bold" Click="btnPaginaAnterior_Click" HorizontalContentAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Right" FontFamily="Segoe UI Symbol" FontSize="16"/>
+            <ComboBox Height="30" x:Name="cmbNumeroPaginas" Margin="0,0,0,0"  Width="50" FontWeight="Bold" SelectionChanged="cmbNumeroPaginas_SelectionChanged" HorizontalContentAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Right"/>
+            <Button Height="30" x:Name="btnPaginaSiguiente" Content="&gt;" Width="25" RenderTransformOrigin="1.493,14.222"  FontWeight="Bold" Click="btnPaginaSiguiente_Click" HorizontalContentAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Right" FontSize="16" FontFamily="Segoe UI Symbol"/>
+            <Button Height="30" x:Name="btnUltimaPagina" Content="&gt;&gt;" Width="25" RenderTransformOrigin="1.493,14.222"  FontWeight="Bold" Click="btnUltimaPagina_Click" HorizontalContentAlignment="Center" ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Right" FontFamily="Segoe UI Symbol" FontSize="16"/>
+        </StatusBar>
+    </Grid>
+
+</Window>
