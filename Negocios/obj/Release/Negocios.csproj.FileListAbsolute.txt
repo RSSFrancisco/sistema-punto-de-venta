@@ -1,0 +1,7 @@
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Negocios\bin\Release\Negocios.dll
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Negocios\bin\Release\Negocios.pdb
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Negocios\bin\Release\Datos.dll
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Negocios\bin\Release\Datos.pdb
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Negocios\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Negocios\obj\Release\Negocios.dll
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Negocios\obj\Release\Negocios.pdb
