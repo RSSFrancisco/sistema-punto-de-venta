@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug2\Datos.dll
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug2\Datos.pdb
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug2\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug2\Datos.dll
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug2\Datos.pdb

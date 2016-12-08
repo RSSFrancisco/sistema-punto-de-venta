@@ -1,0 +1,190 @@
+C:\Users\gear-heavy\Documents\Visual Studio 2010\Projects\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Documents\Visual Studio 2010\Projects\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Documents\Visual Studio 2010\Projects\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Documents\Visual Studio 2010\Projects\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Documents\Visual Studio 2010\Projects\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\arlae\Desktop\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\arlae\Desktop\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\arlae\Desktop\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\arlae\Desktop\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\arlae\Desktop\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\AVE\Desktop\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\AVE\Desktop\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\AVE\Desktop\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AVE\Desktop\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\AVE\Desktop\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\AVE\Desktop\Proyecto con base correcta 06.07.12\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\AVE\Desktop\Proyecto con base correcta 06.07.12\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\AVE\Desktop\Proyecto con base correcta 06.07.12\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AVE\Desktop\Proyecto con base correcta 06.07.12\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\AVE\Desktop\Proyecto con base correcta 06.07.12\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\AVE\Desktop\11.07.2012\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\AVE\Desktop\11.07.2012\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\AVE\Desktop\11.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AVE\Desktop\11.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\AVE\Desktop\11.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\11.07.2012\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\11.07.2012\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\11.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\11.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\11.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\usuario2\Desktop\14.07.2012\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\usuario2\Desktop\14.07.2012\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\usuario2\Desktop\14.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario2\Desktop\14.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\usuario2\Desktop\14.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\14.07.2012\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\14.07.2012\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\14.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\14.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\14.07.2012\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\AVE\Documents\proyecto\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\AVE\Documents\proyecto\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\AVE\Documents\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\AVE\Documents\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\AVE\Documents\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\usuario2\Desktop\proyecto\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\usuario2\Desktop\proyecto\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\usuario2\Desktop\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\usuario2\Desktop\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\usuario2\Desktop\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.pdb
+E:\proyecto\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.dll
+E:\proyecto\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.pdb
+E:\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+E:\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.dll
+E:\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\Gear-Heavy\Desktop\proyecto\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\Gear-Heavy\Desktop\proyecto\Proyecto con base Correcta\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\Gear-Heavy\Desktop\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gear-Heavy\Desktop\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\Gear-Heavy\Desktop\proyecto\Proyecto con base Correcta\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\Gear-Heavy\Desktop\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\Gear-Heavy\Desktop\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\Gear-Heavy\Desktop\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gear-Heavy\Desktop\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\Gear-Heavy\Desktop\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+D:\MisDocumentos\6 cuatriimestre\PROYECTO 6B\APLICACION SIS INT ARVEL\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+D:\MisDocumentos\6 cuatriimestre\PROYECTO 6B\APLICACION SIS INT ARVEL\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+D:\MisDocumentos\6 cuatriimestre\PROYECTO 6B\APLICACION SIS INT ARVEL\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+D:\MisDocumentos\6 cuatriimestre\PROYECTO 6B\APLICACION SIS INT ARVEL\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+D:\MisDocumentos\6 cuatriimestre\PROYECTO 6B\APLICACION SIS INT ARVEL\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\proyecto\Presentacion\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\proyecto 6°cuatrimestre\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\proyecto 6°cuatrimestre\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\proyecto 6°cuatrimestre\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\proyecto 6°cuatrimestre\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\proyecto 6°cuatrimestre\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas.15.05.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas.15.05.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas.15.05.2013\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas.15.05.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas.15.05.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\home\Desktop\Proyecto RG Soluciones Ciberneticas.16.05.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\home\Desktop\Proyecto RG Soluciones Ciberneticas.16.05.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\home\Desktop\Proyecto RG Soluciones Ciberneticas.16.05.2013\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\home\Desktop\Proyecto RG Soluciones Ciberneticas.16.05.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\home\Desktop\Proyecto RG Soluciones Ciberneticas.16.05.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas.16.05.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas.16.05.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas.16.05.2013\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas.16.05.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\Proyecto RG Soluciones Ciberneticas.16.05.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.08.06.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.08.06.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.08.06.2013\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.08.06.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.08.06.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Escritorio\Proyecto RG Soluciones Ciberneticas.21.06.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Escritorio\Proyecto RG Soluciones Ciberneticas.21.06.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Escritorio\Proyecto RG Soluciones Ciberneticas.21.06.2013\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\Proyecto RG Soluciones Ciberneticas.21.06.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Escritorio\Proyecto RG Soluciones Ciberneticas.21.06.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.25.06.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.25.06.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.25.06.2013\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.25.06.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.25.06.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.05.07.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.05.07.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.05.07.2013\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.05.07.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.05.07.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.10.07.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.10.07.2013\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.10.07.2013\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.10.07.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\RespaldosProyectos\Proyecto RG Soluciones Ciberneticas.10.07.2013\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Mis documentos\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Escritorio\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Escritorio\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Escritorio\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Escritorio\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Escritorio\Versiones de RG Soluciones\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Escritorio\Versiones de RG Soluciones\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Escritorio\Versiones de RG Soluciones\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\Versiones de RG Soluciones\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Escritorio\Versiones de RG Soluciones\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Versiones de RG Soluciones\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Mis documentos\Versiones de RG Soluciones\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Versiones de RG Soluciones\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\Versiones de RG Soluciones\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Documents and Settings\Administrador\Mis documentos\Versiones de RG Soluciones\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\ProyectoCompleto\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\ProyectoCompleto\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\proyecto 9° Cuatrimestre\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\proyecto 9° Cuatrimestre\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\gear-heavy\Desktop\proyecto 9° Cuatrimestre\proyecto\Presentacion\Datos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\gear-heavy\Desktop\proyecto 9° Cuatrimestre\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\gear-heavy\Desktop\proyecto 9° Cuatrimestre\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\equipo1\Documents\proyecto 9° Cuatrimestre version 2\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\equipo1\Documents\proyecto 9° Cuatrimestre version 2\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\equipo1\Documents\proyecto 9° Cuatrimestre version 2\proyecto\Presentacion\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\equipo1\Documents\proyecto 9° Cuatrimestre version 2\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\equipo1\Documents\proyecto 9° Cuatrimestre version 2\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\equipo1\Documents\proyecto 9° Cuatrimestre version 2\proyecto\Presentacion\Datos\bin\Debug\MySql.Data.dll
+C:\Users\equipo1\Documents\proyecto 9° Cuatrimestre version 2\proyecto\Presentacion\Datos\bin\Debug\MySql.Data.xml
+C:\Users\equipo1\Documents\proyecto 9° Cuatrimestre version 2\proyecto\Presentacion\Datos\bin\Debug\MySqlBackup.dll
+C:\Users\equipo1\Documents\SYS_VENTA\proyecto\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\equipo1\Documents\SYS_VENTA\proyecto\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\equipo1\Documents\SYS_VENTA\proyecto\Presentacion\Datos\bin\Debug\MySql.Data.dll
+C:\Users\equipo1\Documents\SYS_VENTA\proyecto\Presentacion\Datos\bin\Debug\MySqlBackup.dll
+C:\Users\equipo1\Documents\SYS_VENTA\proyecto\Presentacion\Datos\bin\Debug\MySql.Data.xml
+C:\Users\equipo1\Documents\SYS_VENTA\proyecto\Presentacion\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\equipo1\Documents\SYS_VENTA\proyecto\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\equipo1\Documents\SYS_VENTA\proyecto\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\equipo1\Desktop\Punto de venta\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\equipo1\Desktop\Punto de venta\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\equipo1\Desktop\Punto de venta\Presentacion\Datos\bin\Debug\MySql.Data.dll
+C:\Users\equipo1\Desktop\Punto de venta\Presentacion\Datos\bin\Debug\MySql.Data.xml
+C:\Users\equipo1\Desktop\Punto de venta\Presentacion\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\equipo1\Desktop\Punto de venta\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\equipo1\Desktop\Punto de venta\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\alberto\Desktop\sys_ventas\Presentacion\Datos\bin\Debug\Datos.dll
+C:\Users\alberto\Desktop\sys_ventas\Presentacion\Datos\bin\Debug\Datos.pdb
+C:\Users\alberto\Desktop\sys_ventas\Presentacion\Datos\bin\Debug\MySql.Data.xml
+C:\Users\alberto\Desktop\sys_ventas\Presentacion\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\alberto\Desktop\sys_ventas\Presentacion\Datos\obj\Debug\Datos.dll
+C:\Users\alberto\Desktop\sys_ventas\Presentacion\Datos\obj\Debug\Datos.pdb
+C:\Users\equipo1\Desktop\trunk_sys_ventas\Presentacion\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
